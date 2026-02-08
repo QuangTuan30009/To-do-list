@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+      <!--Header-->
+      <header>
+        <h1>Todolist</h1>
+        <div class="input-section">
+          <input id="todo-input" type="text" placeholder="Nhập ở đây">
+          <button id="add-button" type="submit">Add</button>
+        </div>
+        
+      </header>
+      <!--Main-->
+      <main class="todo-container">
+        <ul class="todo-list">
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Test</span>
+                <div>Gán c</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button onclick="updateTodo(2,'Yeahhh')"> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <!-- <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: 2/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </li>
+          <li class="todo-item">
+            <div class="todo-content">
+              <input type="checkbox">
+              <div>
+                <span>Task 1</span>
+                <div>Create date: m/d/y</div>
+              </div>
+            </div>
+
+            <div class="todo-action">
+              <button> <i class="fa-solid fa-pen-to-square"></i></button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </li> -->
+        </ul>
+      </main>
+    </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
